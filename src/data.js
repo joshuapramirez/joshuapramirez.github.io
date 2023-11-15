@@ -13,18 +13,45 @@ import tiger from './assets/tiger.jpg'
 
 const experienceData = [
   {
-    company: 'EPITA',
+    company: 'Florida International University',
     logo: epita,
-    title: 'Bachelor in Computer Science',
-    startDate: new Date(2017, 9),
-    endDate: new Date(2020, 7),
+    title: 'Bachelor in Business Management',
+    startDate: new Date(2014, 8),
+    endDate: new Date(2018, 4),
     description: [
-      <p>Courses in programming, mathematics, algorithmics, computer architecture.</p>,
-      <p>Tags : <b>OCaml, Python, C, C++, Unix</b></p>
+      <p>Courses in management, accounting, finance, entrepreneurship</p>,
     ],
     color: 'blue',
     position: 'center'
   },
+  {
+    company: 'YMCA',
+    logo: epita,
+    title: 'Personal Trainer',
+    startDate: new Date(2019, 5),
+    endDate: new Date(2023, 11),
+    description: [
+      <p> Provided one-on-one training, coached the Teen Lifting Club, and operated the summer Athletic </p>,
+    ],
+    color: 'purple',
+    position: 'top'
+  },
+  {
+    company: 'One Fitness Weston',
+    logo: epita,
+    title: 'Personal Trainer',
+    startDate: new Date(2022, 2),
+    endDate: new Date(2023, 7),
+    description: [
+      <p> Conducted group fitness classes and designed effective workout programs</p>,
+    ],
+    color: 'purple',
+    position: 'center'
+  },
+  // -------------------------------------
+
+
+/*
   {
     company: 'Concordia',
     logo: concordia,
@@ -77,36 +104,78 @@ const experienceData = [
     color: 'blue',
     position: 'center'
   },
+
+*/
+  // -------------------------------------
   {
-    company: 'Factonics',
+    company: 'HarvardX',
     logo: factonics,
-    title: 'Internship',
-    startDate: new Date(2020, 9, 1),
-    endDate: new Date(2021, 2, 31),
+    title: 'CS50x Introduction to Computer Science',
+    startDate: new Date(2022, 8),
+    endDate: new Date(2023, 4),
     description: [
-      <p>Improvement of Factonics' <b>ML deployment</b> platform.</p>,
-      <p>Development of a <b>Named-entity recognition </b>program specific to the French health system.</p>,
-      <p>PoC for a <b>newsletter recommendation</b> system on behalf of <i>BPI France</i>.</p>,
-      <p>Tags: <b>Python, AWS, Docker</b></p>
+      <p> Explored key topics including abstraction, algorithms, data structures, relational databases, 
+      encapsulation, resource management, security, software engineering, and cryptography</p>,
+      <p>Tags: <b>C, Python, SQL, JavaScript, HTML, CSS, Flask, APIs</b></p>,
+      <p><u><a href='https://certificates.cs50.io/4349187d-cda4-4cd0-8bfc-87c0c0398e21.pdf?size=letter'>Certificate</a></u></p>,
     ],
     color: 'orange',
     position: 'bottom'
   },
   {
-    company: 'Siemens Healthineers',
+    company: 'HarvardX',
     logo: siemens,
-    title: 'End-of-study project',
-    startDate: new Date(2021, 3, 15),
-    endDate: new Date(2022, 2, 31),
+    title: 'CS50W Web Programming with Python and JavaScript',
+    startDate: new Date(2023, 5),
+    endDate: new Date(2023, 8),
     description: [
-      <p>Research of a web based solution for <b>real-time transparency</b>.</p>,
-      <p>Implementation of <u><a href='https://luebke.us/publications/StochasticTransparency_I3D2010.pdf'>Stochastic Transparency</a></u> (Enderton, Eric, et al., 2010) with ThreeJS.</p>,
-      <p>Tags: <b>Typescript, GLSL, ThreeJS</b></p>
+      <p> Explored fundamental web development concepts, such as object-oriented programming, API
+      utilization, database design, interactive user interface creation, testing, CI/CD, scalability, and 
+      security</p>,
+      <p>Tags: <b>Python, JavaScript, HTML, CSS, SQL, Django, Git, React, Bootstrap, Selenium</b></p>,
+      <p><u><a href='https://certificates.cs50.io/c709ede2-f49c-4158-80ac-792cda162595.pdf?size=letter'>Certificate</a></u></p>,
     ],
     color: 'green',
     position: 'bottom'
   },
+  {
+    company: 'HarvardX',
+    logo: siemens,
+    title: 'CS50SQL Introduction to Databases with SQL',
+    startDate: new Date(2023, 9, 15),
+    endDate: new Date(2023, 10, 15),
+    description: [
+      <p> Developed experience with SQL, and integrated it with programming languages like Python and Java</p>,
+      <p> Optimized query performance using data normalization, table joins, views, and indexes</p>,
+      <p>Tags: <b>SQLite, PostgreSQL, MySQL</b></p>,
+      <p><u><a href='https://certificates.cs50.io/945bc382-ba75-4cd9-a116-3ccf5765e655.png?size=letter'>Certificate</a></u></p>,
+    ],
+    color: 'red',
+    position: 'bottom'
+  },
+  {
+    company: 'Udemy',
+    logo: ens,
+    title: 'Microservices with Node JS and React',
+    startDate: new Date(2023, 10, 15),
+    endDate: new Date(2023, 12, 15),
+    description: [
+      <p>Gained proficiency in architecting, deploying, scaling, and maintaining multi-service applications with a diverse tech stack</p>,
+      <p>Learned every major challenge of building microservices, like data replication, unordered event streams, and concurrency issues. </p>,
+      <p>Tags: <b>React, Next.js, Node.js, Express, MongoDB, Redis, Docker, Kubernetes, Skaffold, JavaScript, TypeScript, Google Cloud Platform, </b></p>,
+      <p><u><a href=''>Certificate</a></u></p>,
+    ],
+    color: 'yellow',
+    position: 'bottom'
+  },
 ]
+
+
+
+
+
+
+
 
 const projectsData = [
   {

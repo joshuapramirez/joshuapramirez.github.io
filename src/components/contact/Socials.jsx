@@ -5,16 +5,16 @@ export default function Socials({ isPhone }) {
 
   return (
     <div className='socials'>
-      <a href='https://github.com/MedericCar' title='Github'>
+      <a href='https://github.com/joshuapramirez' title='Github'>
         <i class="fab fa-github"></i>
       </a>
-      <a href='mailto: carriatmederic@gmail.com' title='Mail'>
+      <a href='mailto: joshuapramirez1@gmail.com' title='Mail'>
         <i class="far fa-envelope"></i>
       </a>
-      <a href='https://www.linkedin.com/in/m%C3%A9d%C3%A9ric-carriat-17705a181/' title='LinkedIn'>
+      <a href='https://www.linkedin.com/in/joshua-ramirez-9b604712b/' title='LinkedIn'>
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href='https://resume.medericcarriat.com' title='Resume'>
+      <a href='https://github.com/joshuapramirez/files/Resume.pdf' title='Resume'>
         <i class="far fa-id-card"></i>
       </a>
     </div>

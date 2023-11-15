@@ -44,9 +44,9 @@ export default function Contact({ isPhone }) {
       }
       
       // CHANGE ME
-      const serviceId = 'SERVICE_ID';
+      const serviceId = 'service_91h27jb';
       const templateId = 'TEMPLATE_ID';
-      const userId = 'USER_ID';
+      const userId = 'vP89ZZi9WfiLyjIwW';
       const templateParams = {
           name,
           company,
@@ -86,7 +86,7 @@ export default function Contact({ isPhone }) {
         </form>
       </div>
       { isPhone ? <Socials/> : '' }
-      <p id='footer'>© {new Date().getFullYear()} Médéric Carriat</p>
+      <p id='footer'>© {new Date().getFullYear()} Joshua Ramirez</p>
     </div>
   )
 }
