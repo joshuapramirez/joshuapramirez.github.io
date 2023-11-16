@@ -16,25 +16,25 @@ const experienceData = [
     company: 'Florida International University',
     logo: epita,
     title: 'Bachelor in Business Management',
-    startDate: new Date(2014, 8),
+    startDate: new Date(2016, 8),
     endDate: new Date(2018, 4),
     description: [
       <p>Courses in management, accounting, finance, entrepreneurship</p>,
     ],
-    color: 'blue',
-    position: 'center'
+    color: 'green',
+    position: 'bottom'
   },
   {
     company: 'YMCA',
     logo: epita,
     title: 'Personal Trainer',
-    startDate: new Date(2019, 5),
+    startDate: new Date(2017, 5),
     endDate: new Date(2023, 11),
     description: [
       <p> Provided one-on-one training, coached the Teen Lifting Club, and operated the summer Athletic </p>,
     ],
-    color: 'purple',
-    position: 'top'
+    color: 'blue',
+    position: 'center'
   },
   {
     company: 'One Fitness Weston',
@@ -46,7 +46,7 @@ const experienceData = [
       <p> Conducted group fitness classes and designed effective workout programs</p>,
     ],
     color: 'purple',
-    position: 'center'
+    position: 'bottom'
   },
   // -------------------------------------
 
@@ -110,17 +110,17 @@ const experienceData = [
   {
     company: 'HarvardX',
     logo: factonics,
-    title: 'CS50x Introduction to Computer Science',
+    title: 'CS50x Intro to Computer Science',
     startDate: new Date(2022, 8),
     endDate: new Date(2023, 4),
     description: [
       <p> Explored key topics including abstraction, algorithms, data structures, relational databases, 
-      encapsulation, resource management, security, software engineering, and cryptography</p>,
+      and encapsulation.</p>,
       <p>Tags: <b>C, Python, SQL, JavaScript, HTML, CSS, Flask, APIs</b></p>,
-      <p><u><a href='https://certificates.cs50.io/4349187d-cda4-4cd0-8bfc-87c0c0398e21.pdf?size=letter'>Certificate</a></u></p>,
+      <p><b><u><a href='https://certificates.cs50.io/4349187d-cda4-4cd0-8bfc-87c0c0398e21.pdf?size=letter'>Certificate</a></u></b></p>,
     ],
     color: 'orange',
-    position: 'bottom'
+    position: 'top'
   },
   {
     company: 'HarvardX',
@@ -129,11 +129,10 @@ const experienceData = [
     startDate: new Date(2023, 5),
     endDate: new Date(2023, 8),
     description: [
-      <p> Explored fundamental web development concepts, such as object-oriented programming, API
-      utilization, database design, interactive user interface creation, testing, CI/CD, scalability, and 
-      security</p>,
+      <p> Learned fundamental web development concepts</p>,
+      <p> Built 6 web applications</p>,
       <p>Tags: <b>Python, JavaScript, HTML, CSS, SQL, Django, Git, React, Bootstrap, Selenium</b></p>,
-      <p><u><a href='https://certificates.cs50.io/c709ede2-f49c-4158-80ac-792cda162595.pdf?size=letter'>Certificate</a></u></p>,
+      <p><b><u><a href='https://certificates.cs50.io/c709ede2-f49c-4158-80ac-792cda162595.pdf?size=letter'>Certificate</a></u></b></p>,
     ],
     color: 'green',
     position: 'bottom'
@@ -141,17 +140,17 @@ const experienceData = [
   {
     company: 'HarvardX',
     logo: siemens,
-    title: 'CS50SQL Introduction to Databases with SQL',
+    title: 'CS50SQL Intro to Databases with SQL',
     startDate: new Date(2023, 9, 15),
     endDate: new Date(2023, 10, 15),
     description: [
-      <p> Developed experience with SQL, and integrated it with programming languages like Python and Java</p>,
-      <p> Optimized query performance using data normalization, table joins, views, and indexes</p>,
+      <p> Developed experience with SQL, and integrated it </p>,
+      <p> with programming languages like Python and Java. </p>,
       <p>Tags: <b>SQLite, PostgreSQL, MySQL</b></p>,
-      <p><u><a href='https://certificates.cs50.io/945bc382-ba75-4cd9-a116-3ccf5765e655.png?size=letter'>Certificate</a></u></p>,
+      <p><b><u><a href='https://certificates.cs50.io/945bc382-ba75-4cd9-a116-3ccf5765e655.png?size=letter'>Certificate</a></u></b></p>,
     ],
     color: 'red',
-    position: 'bottom'
+    position: 'top'
   },
   {
     company: 'Udemy',
@@ -160,13 +159,24 @@ const experienceData = [
     startDate: new Date(2023, 10, 15),
     endDate: new Date(2023, 12, 15),
     description: [
-      <p>Gained proficiency in architecting, deploying, scaling, and maintaining multi-service applications with a diverse tech stack</p>,
-      <p>Learned every major challenge of building microservices, like data replication, unordered event streams, and concurrency issues. </p>,
+      <p>Gained proficiency in architecting, deploying, scaling, and</p>,
+      <p>maintaining multi-service applications with a diverse tech stack</p>,
       <p>Tags: <b>React, Next.js, Node.js, Express, MongoDB, Redis, Docker, Kubernetes, Skaffold, JavaScript, TypeScript, Google Cloud Platform, </b></p>,
       <p><u><a href=''>Certificate</a></u></p>,
     ],
     color: 'yellow',
     position: 'bottom'
+  },
+  {
+    company: '',
+    logo: ens,
+    title: '',
+    startDate: new Date(2024, 1),
+    endDate: new Date(2024, 6),
+    description: [
+    ],
+    color: '',
+    position: 'center'
   },
 ]
 
