@@ -114,8 +114,6 @@ const experienceData = [
     startDate: new Date(2022, 8),
     endDate: new Date(2023, 4),
     description: [
-      <p> Explored key topics including abstraction, algorithms, data structures, relational databases, 
-      and encapsulation.</p>,
       <p>Tags: <b>C, Python, SQL, JavaScript, HTML, CSS, Flask, APIs</b></p>,
       <p><b><u><a href='https://certificates.cs50.io/4349187d-cda4-4cd0-8bfc-87c0c0398e21.pdf?size=letter'>Certificate</a></u></b></p>,
     ],
@@ -129,8 +127,6 @@ const experienceData = [
     startDate: new Date(2023, 5),
     endDate: new Date(2023, 8),
     description: [
-      <p> Learned fundamental web development concepts</p>,
-      <p> Built 6 web applications</p>,
       <p>Tags: <b>Python, JavaScript, HTML, CSS, SQL, Django, Git, React, Bootstrap, Selenium</b></p>,
       <p><b><u><a href='https://certificates.cs50.io/c709ede2-f49c-4158-80ac-792cda162595.pdf?size=letter'>Certificate</a></u></b></p>,
     ],
@@ -144,8 +140,6 @@ const experienceData = [
     startDate: new Date(2023, 9, 15),
     endDate: new Date(2023, 10, 15),
     description: [
-      <p> Developed experience with SQL, and integrated it </p>,
-      <p> with programming languages like Python and Java. </p>,
       <p>Tags: <b>SQLite, PostgreSQL, MySQL</b></p>,
       <p><b><u><a href='https://certificates.cs50.io/945bc382-ba75-4cd9-a116-3ccf5765e655.png?size=letter'>Certificate</a></u></b></p>,
     ],
@@ -159,24 +153,11 @@ const experienceData = [
     startDate: new Date(2023, 10, 15),
     endDate: new Date(2023, 12, 15),
     description: [
-      <p>Gained proficiency in architecting, deploying, scaling, and</p>,
-      <p>maintaining multi-service applications with a diverse tech stack</p>,
       <p>Tags: <b>React, Next.js, Node.js, Express, MongoDB, Redis, Docker, Kubernetes, Skaffold, JavaScript, TypeScript, Google Cloud Platform, </b></p>,
       <p><u><a href=''>Certificate</a></u></p>,
     ],
     color: 'yellow',
     position: 'bottom'
-  },
-  {
-    company: '',
-    logo: ens,
-    title: '',
-    startDate: new Date(2024, 1),
-    endDate: new Date(2024, 6),
-    description: [
-    ],
-    color: '',
-    position: 'center'
   },
 ]
 
