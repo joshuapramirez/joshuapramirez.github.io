@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.95ba06e0.chunk.css",
-    "main.js": "/static/js/main.32b4c796.chunk.js",
-    "main.js.map": "/static/js/main.32b4c796.chunk.js.map",
+    "main.js": "/static/js/main.4bb036de.chunk.js",
+    "main.js.map": "/static/js/main.4bb036de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
-    "static/js/2.969a9aa6.chunk.js": "/static/js/2.969a9aa6.chunk.js",
-    "static/js/2.969a9aa6.chunk.js.map": "/static/js/2.969a9aa6.chunk.js.map",
+    "static/js/2.1962d4a9.chunk.js": "/static/js/2.1962d4a9.chunk.js",
+    "static/js/2.1962d4a9.chunk.js.map": "/static/js/2.1962d4a9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.95ba06e0.chunk.css.map": "/static/css/main.95ba06e0.chunk.css.map",
-    "static/js/2.969a9aa6.chunk.js.LICENSE.txt": "/static/js/2.969a9aa6.chunk.js.LICENSE.txt",
+    "static/js/2.1962d4a9.chunk.js.LICENSE.txt": "/static/js/2.1962d4a9.chunk.js.LICENSE.txt",
     "static/media/concordia.586d2aff.png": "/static/media/concordia.586d2aff.png",
     "static/media/ens.c48c41c3.png": "/static/media/ens.c48c41c3.png",
     "static/media/epita.f88f36c3.png": "/static/media/epita.f88f36c3.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
-    "static/js/2.969a9aa6.chunk.js",
+    "static/js/2.1962d4a9.chunk.js",
     "static/css/main.95ba06e0.chunk.css",
-    "static/js/main.32b4c796.chunk.js"
+    "static/js/main.4bb036de.chunk.js"
   ]
 }
