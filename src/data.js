@@ -111,151 +111,15 @@ const experienceData = [
 
 const projectsData = [
   {
-    id: 8,
-    title: 'Inventory Management System',
-    image: wce,
-    link: 'https://github.com/joshuapramirez/InventorySystem',
-    description: (
-      <p>Implementation of the <b><a href='https://www.sciencedirect.com/science/article/pii/S0167639318304205'>automatic word count estimation algorithm</a></b> (Räsänen, Okko, et al., 2019).</p>
-    ),
-    tags: [
-      {
-        text: 'Python',
-        color: 'var(--green)',
-        backgroundColor: 'var(--bg-green)',
-      },
-      {
-        text: 'ML',
-        color: 'var(--red)',
-        backgroundColor: 'var(--bg-red)',
-      },
-    ]
-  },
-  {
-    id: 7,
-    title: 'Twitter Clone',
-    image: tau,
-    description: (
-      <div>
-        <p><b>Kaggle competition</b> : recognize floor surfaces using data collected from Inertial Sensors.</p>
-        <p><b>Third team</b> out of 105.</p>
-      </div>
-    ),
-    link: 'https://github.com/joshuapramirez/TwitterClone',
-    tags: [
-      {
-        text: 'Python',
-        color: 'var(--green)',
-        backgroundColor: 'var(--bg-green)',
-      },
-      {
-        text: 'ML',
-        color: 'var(--red)',
-        backgroundColor: 'var(--bg-red)',
-      },
-    ]
-  },
-  {
-    id: 6,
-    title: 'E-commerce',
-    image: tiger,
-    description: (
-      <div>
-        <p>Semester long school project to build the <b>frontend of a Tiger compiler</b></p>
-      </div>
-    ),
-    link: 'https://github.com/joshuapramirez/ECommerce',
-    tags: [
-      {
-        text: 'C++',
-        color: 'var(--blue)',
-        backgroundColor: 'var(--bg-blue)',
-      },
-    ]
-  },
-  {
-    id: 5,
-    title: 'Email',
-    image: stoch,
-    description: (
-
-      <p><b>Stochastic methods</b> for real-time transparency in the <b>browser</b>.</p>
-    ),
-    link: 'https://github.com/joshuapramirez/Email',
-    tags: [
-      {
-        text: 'JS',
-        color: 'var(--orange)',
-        backgroundColor: 'var(--bg-orange)',
-      },
-      {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
-      },
-      {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
-      },
-    ]
-  },
-  {
-    id: 4,
-    title: 'Stock Trading',
-    image: pathtracer,
-    description: (
-      <p>
-        Path tracing in C++ for Physically Based Rendering. <b>CPU parallelized</b> and optimized with <b>Bounding Volume Hierarchy</b>.
-      </p>
-    ),
-    link: 'https://github.com/joshuapramirez/StockTrading',
-    tags: [
-      {
-        text: 'C++',
-        color: 'var(--blue)',
-        backgroundColor: 'var(--bg-blue)',
-      },
-    ]
-  },
-  {
-    id: 3,
-    title: 'Wikipedia Clone',
+    id: 0,
+    title: 'Fitness Business Page',
     image: website,
     description: (
       <p>
         Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
       </p>
     ),
-    link: 'https://github.com/joshuapramirez/WikipediaClone',
-    tags: [
-      {
-        text: 'React',
-        color: 'var(--purple)',
-        backgroundColor: 'var(--bg-purple)',
-      },
-      {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
-      },
-      {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
-      },
-    ]
-  },
-  {
-    id: 2,
-    title: 'Google Clone',
-    image: website,
-    description: (
-      <p>
-        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
-      </p>
-    ),
-    link: 'https://github.com/joshuapramirez/GoogleClone',
+    link: 'https://github.com/joshuapramirez/FitnessPage',
     tags: [
       {
         text: 'React',
@@ -303,15 +167,15 @@ const projectsData = [
     ]
   },
   {
-    id: 0,
-    title: 'Fitness Business Page',
+    id: 2,
+    title: 'Google Clone',
     image: website,
     description: (
       <p>
         Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
       </p>
     ),
-    link: 'https://github.com/joshuapramirez/FitnessPage',
+    link: 'https://github.com/joshuapramirez/GoogleClone',
     tags: [
       {
         text: 'React',
@@ -330,6 +194,144 @@ const projectsData = [
       },
     ]
   },
+  {
+    id: 3,
+    title: 'Wikipedia Clone',
+    image: website,
+    description: (
+      <p>
+        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+      </p>
+    ),
+    link: 'https://github.com/joshuapramirez/WikipediaClone',
+    tags: [
+      {
+        text: 'React',
+        color: 'var(--purple)',
+        backgroundColor: 'var(--bg-purple)',
+      },
+      {
+        text: 'ThreeJS',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'GLSL',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+  {
+    id: 4,
+    title: 'Stock Trading',
+    image: pathtracer,
+    description: (
+      <p>
+        Path tracing in C++ for Physically Based Rendering. <b>CPU parallelized</b> and optimized with <b>Bounding Volume Hierarchy</b>.
+      </p>
+    ),
+    link: 'https://github.com/joshuapramirez/StockTrading',
+    tags: [
+      {
+        text: 'C++',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
+      },
+    ]
+  },
+  {
+    id: 5,
+    title: 'Email',
+    image: stoch,
+    description: (
+
+      <p><b>Stochastic methods</b> for real-time transparency in the <b>browser</b>.</p>
+    ),
+    link: 'https://github.com/joshuapramirez/Email',
+    tags: [
+      {
+        text: 'JS',
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
+      },
+      {
+        text: 'ThreeJS',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'GLSL',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+  {
+    id: 6,
+    title: 'E-commerce',
+    image: tiger,
+    description: (
+      <div>
+        <p>Semester long school project to build the <b>frontend of a Tiger compiler</b></p>
+      </div>
+    ),
+    link: 'https://github.com/joshuapramirez/ECommerce',
+    tags: [
+      {
+        text: 'C++',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
+      },
+    ]
+  },
+  {
+    id: 7,
+    title: 'Twitter Clone',
+    image: tau,
+    description: (
+      <div>
+        <p><b>Kaggle competition</b> : recognize floor surfaces using data collected from Inertial Sensors.</p>
+        <p><b>Third team</b> out of 105.</p>
+      </div>
+    ),
+    link: 'https://github.com/joshuapramirez/TwitterClone',
+    tags: [
+      {
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
+      },
+      {
+        text: 'ML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+    ]
+  },
+  {
+    id: 8,
+    title: 'Inventory Management System',
+    image: wce,
+    link: 'https://github.com/joshuapramirez/InventorySystem',
+    description: (
+      <p>Implementation of the <b><a href='https://www.sciencedirect.com/science/article/pii/S0167639318304205'>automatic word count estimation algorithm</a></b> (Räsänen, Okko, et al., 2019).</p>
+    ),
+    tags: [
+      {
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
+      },
+      {
+        text: 'ML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+    ]
+  },
+
+
 
 ]
 
