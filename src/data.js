@@ -29,7 +29,7 @@ const experienceData = [
     logo: epita,
     title: 'Personal Trainer',
     startDate: new Date(2017, 5),
-    endDate: new Date(2023, 11),
+    endDate: new Date(2023, 12, 15),
     description: [
       <p> Provided one-on-one training, coached the Teen Lifting Club, and operated the summer Athletic </p>,
     ],
@@ -48,65 +48,6 @@ const experienceData = [
     color: 'purple',
     position: 'bottom'
   },
-  // -------------------------------------
-
-
-/*
-  {
-    company: 'Concordia',
-    logo: concordia,
-    title: 'Volunteering',
-    startDate: new Date(2018, 7, 1),
-    endDate: new Date(2018, 8, 31),
-    description: [
-      <p>Renovation of Latresnes' church with 10 other international students.</p>
-    ],
-    color: 'red',
-    position: 'bottom'
-  },
-  {
-    company: 'Tampere University',
-    logo: epita,
-    title: 'Exchange semester in Finland',
-    startDate: new Date(2019, 1, 1),
-    endDate: new Date(2019, 5),
-    description: [
-      <p>Courses in Machine Learning, Signal Compression and Software Engineering.</p>,
-      <p><b>3rd out of 105 teams</b> at the university's <u><a href='https://www.kaggle.com/c/robotsurface/overview'>Kaggle competition</a></u>.</p>
-    ],
-    color: 'purple',
-    position: 'top'
-  },
-  {
-    company: 'ENS - PSL',
-    logo: ens,
-    title: 'Internship',
-    startDate: new Date(2019, 5, 1),
-    endDate: new Date(2019, 8, 31),
-    description: [
-      <p>Benchmarking of the <u><a href='https://divime.readthedocs.io/en/latest/initial_questions.html#what-is-the-aclew-divime'>DiViMe</a></u> speech processing tool.</p>,
-      <p>Implementation of the <u><a href='https://www.sciencedirect.com/science/article/pii/S0167639318304205'>automatic word count estimation algorithm</a></u> (Räsänen, Okko, et al., 2019).</p>,
-      <p>Tags: <b>MATLAB, Python, Docker</b></p>
-    ],
-    color: 'yellow',
-    position: 'bottom'
-  },
-  {
-    company: 'EPITA',
-    logo: epita,
-    title: 'Master in Image Processing and Computer Graphics',
-    startDate: new Date(2020, 9, 1),
-    endDate: new Date(2022, 7),
-    description: [
-      <p>Courses in Image Processing, Computer Vision and Computer Graphics.</p>,
-      <p>Tags: <b>C++, Python, OpenGL, CUDA</b></p>
-    ],
-    color: 'blue',
-    position: 'center'
-  },
-
-*/
-  // -------------------------------------
   {
     company: 'HarvardX',
     logo: factonics,
@@ -171,9 +112,9 @@ const experienceData = [
 const projectsData = [
   {
     id: 0,
-    title: 'Word count estimator',
+    title: 'Inventory Management System',
     image: wce,
-    link: 'https://github.com/bootphon/word-count-estimator',
+    link: 'https://github.com/joshuapramirez/InventorySystem',
     description: (
       <p>Implementation of the <b><a href='https://www.sciencedirect.com/science/article/pii/S0167639318304205'>automatic word count estimation algorithm</a></b> (Räsänen, Okko, et al., 2019).</p>
     ),
@@ -192,7 +133,7 @@ const projectsData = [
   },
   {
     id: 1,
-    title: 'Robot Surface Detection',
+    title: 'Twitter Clone',
     image: tau,
     description: (
       <div>
@@ -216,7 +157,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: 'Tiger Compiler',
+    title: 'E-commerce',
     image: tiger,
     description: (
       <div>
@@ -234,7 +175,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: 'Real-time transparency',
+    title: 'Email',
     image: stoch,
     description: (
 
@@ -261,7 +202,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: 'Path tracer',
+    title: 'Stock Trading',
     image: pathtracer,
     description: (
       <p>
@@ -279,7 +220,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: 'Personal website',
+    title: 'Wikipedia Clone',
     image: website,
     description: (
       <p>
@@ -305,6 +246,119 @@ const projectsData = [
       },
     ]
   },
+  {
+    id: 6,
+    title: 'Wikipedia Clone',
+    image: website,
+    description: (
+      <p>
+        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+      </p>
+    ),
+    link: 'https://github.com/MedericCar/portfolio',
+    tags: [
+      {
+        text: 'React',
+        color: 'var(--purple)',
+        backgroundColor: 'var(--bg-purple)',
+      },
+      {
+        text: 'ThreeJS',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'GLSL',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+  {
+    id: 7,
+    title: 'Google Clone',
+    image: website,
+    description: (
+      <p>
+        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+      </p>
+    ),
+    link: 'https://github.com/MedericCar/portfolio',
+    tags: [
+      {
+        text: 'React',
+        color: 'var(--purple)',
+        backgroundColor: 'var(--bg-purple)',
+      },
+      {
+        text: 'ThreeJS',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'GLSL',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+  {
+    id: 8,
+    title: 'Coaching App Database',
+    image: website,
+    description: (
+      <p>
+        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+      </p>
+    ),
+    link: 'https://github.com/MedericCar/portfolio',
+    tags: [
+      {
+        text: 'React',
+        color: 'var(--purple)',
+        backgroundColor: 'var(--bg-purple)',
+      },
+      {
+        text: 'ThreeJS',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'GLSL',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+  {
+    id: 9,
+    title: 'Fitness Business Page',
+    image: website,
+    description: (
+      <p>
+        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+      </p>
+    ),
+    link: 'https://github.com/MedericCar/portfolio',
+    tags: [
+      {
+        text: 'React',
+        color: 'var(--purple)',
+        backgroundColor: 'var(--bg-purple)',
+      },
+      {
+        text: 'ThreeJS',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'GLSL',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+
 ]
 
 export { experienceData, projectsData }
