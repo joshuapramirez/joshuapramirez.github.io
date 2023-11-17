@@ -111,7 +111,7 @@ const experienceData = [
 
 const projectsData = [
   {
-    id: 0,
+    id: 8,
     title: 'Inventory Management System',
     image: wce,
     link: 'https://github.com/joshuapramirez/InventorySystem',
@@ -132,7 +132,7 @@ const projectsData = [
     ]
   },
   {
-    id: 1,
+    id: 7,
     title: 'Twitter Clone',
     image: tau,
     description: (
@@ -141,7 +141,7 @@ const projectsData = [
         <p><b>Third team</b> out of 105.</p>
       </div>
     ),
-    link: 'https://www.kaggle.com/c/robotsurface/overview',
+    link: 'https://github.com/joshuapramirez/TwitterClone',
     tags: [
       {
         text: 'Python',
@@ -156,7 +156,7 @@ const projectsData = [
     ]
   },
   {
-    id: 2,
+    id: 6,
     title: 'E-commerce',
     image: tiger,
     description: (
@@ -164,7 +164,7 @@ const projectsData = [
         <p>Semester long school project to build the <b>frontend of a Tiger compiler</b></p>
       </div>
     ),
-    link: 'https://assignments.lrde.epita.fr/index.html',
+    link: 'https://github.com/joshuapramirez/ECommerce',
     tags: [
       {
         text: 'C++',
@@ -174,14 +174,14 @@ const projectsData = [
     ]
   },
   {
-    id: 3,
+    id: 5,
     title: 'Email',
     image: stoch,
     description: (
 
       <p><b>Stochastic methods</b> for real-time transparency in the <b>browser</b>.</p>
     ),
-    link: 'https://github.com/SabineHU/PFEE_Stochastic_Transparency',
+    link: 'https://github.com/joshuapramirez/Email',
     tags: [
       {
         text: 'JS',
@@ -209,7 +209,7 @@ const projectsData = [
         Path tracing in C++ for Physically Based Rendering. <b>CPU parallelized</b> and optimized with <b>Bounding Volume Hierarchy</b>.
       </p>
     ),
-    link: 'https://github.com/MedericCar/pathtracer',
+    link: 'https://github.com/joshuapramirez/StockTrading',
     tags: [
       {
         text: 'C++',
@@ -219,7 +219,7 @@ const projectsData = [
     ]
   },
   {
-    id: 5,
+    id: 3,
     title: 'Wikipedia Clone',
     image: website,
     description: (
@@ -227,7 +227,7 @@ const projectsData = [
         Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
       </p>
     ),
-    link: 'https://github.com/MedericCar/portfolio',
+    link: 'https://github.com/joshuapramirez/WikipediaClone',
     tags: [
       {
         text: 'React',
@@ -247,35 +247,7 @@ const projectsData = [
     ]
   },
   {
-    id: 6,
-    title: 'Wikipedia Clone',
-    image: website,
-    description: (
-      <p>
-        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
-      </p>
-    ),
-    link: 'https://github.com/MedericCar/portfolio',
-    tags: [
-      {
-        text: 'React',
-        color: 'var(--purple)',
-        backgroundColor: 'var(--bg-purple)',
-      },
-      {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
-      },
-      {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
-      },
-    ]
-  },
-  {
-    id: 7,
+    id: 2,
     title: 'Google Clone',
     image: website,
     description: (
@@ -283,7 +255,7 @@ const projectsData = [
         Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
       </p>
     ),
-    link: 'https://github.com/MedericCar/portfolio',
+    link: 'https://github.com/joshuapramirez/GoogleClone',
     tags: [
       {
         text: 'React',
@@ -303,7 +275,7 @@ const projectsData = [
     ]
   },
   {
-    id: 8,
+    id: 1,
     title: 'Coaching App Database',
     image: website,
     description: (
@@ -311,7 +283,7 @@ const projectsData = [
         Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
       </p>
     ),
-    link: 'https://github.com/MedericCar/portfolio',
+    link: 'https://github.com/joshuapramirez/CoachingAppDatabase',
     tags: [
       {
         text: 'React',
@@ -331,7 +303,7 @@ const projectsData = [
     ]
   },
   {
-    id: 9,
+    id: 0,
     title: 'Fitness Business Page',
     image: website,
     description: (
@@ -339,7 +311,7 @@ const projectsData = [
         Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
       </p>
     ),
-    link: 'https://github.com/MedericCar/portfolio',
+    link: 'https://github.com/joshuapramirez/FitnessPage',
     tags: [
       {
         text: 'React',
