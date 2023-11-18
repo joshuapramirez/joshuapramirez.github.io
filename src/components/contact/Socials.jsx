@@ -14,7 +14,7 @@ export default function Socials({ isPhone }) {
       <a href='https://www.linkedin.com/in/joshua-ramirez-9b604712b/' title='LinkedIn'>
         <i class="fab fa-linkedin"></i>
       </a>
-      <a href='https://github.com/joshuapramirez/files/Resume.pdf' title='Resume'>
+      <a  href="/files/Joshua-Resume.pdf" download="Joshua-Resume.pdf" title='Resume'>
         <i class="far fa-id-card"></i>
       </a>
     </div>

@@ -11,15 +11,14 @@ export default function Experience({ darkTheme, smallViewport }) {
 
   return (
     <div className='experience' id='experience'>
-      <h1 id='title'>Hi, I'm <span className='blue'>Médéric</span></h1>
+      <h1 id='title'>Hi, I'm <span className='blue'>Joshua</span></h1>
       <div id='description'>
         <p>
-          Student at <a href="https://www.epita.fr/">EPITA</a> currently 
-          in the last year of the Image Processing & Computer Graphics Master,
-          I am looking for a <b className='blue'>6-month internship</b> starting in <b className='blue'>February 2021</b>.
+          Self-taught Software Developer currently 
+          looking for an <b className='blue'>internship or junior developer position</b> starting <b className='blue'>as soon as possible!</b>.
         </p>
         <p>
-          This is what I've been up to the last 5 years.
+          This is what I've been up to the last 7 years.
         </p>
       </div>
       <Timeline experience={experienceData} darkTheme={darkTheme} smallViewport={smallViewport}/>

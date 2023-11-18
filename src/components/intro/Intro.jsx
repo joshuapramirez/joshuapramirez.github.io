@@ -107,8 +107,8 @@ export default function Intro({ darkTheme, active, setActivePage }) {
       <div id='c' ref={mountRef}></div>
       
       <div className='info'>
-        <h1 className='blue'>Médéric Carriat</h1>
-        <h4 className='blue'>Software Engineer looking for a 6-month internship</h4>
+        <h1 className='blue'>Joshua Ramirez</h1>
+        <h4 className='blue'>Software Engineer looking for an internship or junior developer position</h4>
       </div>
 
       <div className='arrow-border'>
