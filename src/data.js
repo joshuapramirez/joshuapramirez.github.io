@@ -20,6 +20,7 @@ const experienceData = [
     endDate: new Date(2018, 4),
     description: [
       <p>Courses in management, accounting, finance, entrepreneurship</p>,
+      <p><b><u><a href=''>Transcript</a></u></b></p>,
     ],
     color: 'green',
     position: 'bottom'
@@ -106,9 +107,6 @@ const experienceData = [
 
 
 
-
-
-
 const projectsData = [
   {
     id: 0,
@@ -116,7 +114,7 @@ const projectsData = [
     image: website,
     description: (
       <p>
-        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+        Personal page to help you <b>promote</b> your business
       </p>
     ),
     link: 'https://github.com/joshuapramirez/FitnessPage',
@@ -133,19 +131,18 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
       },
       {
         text: 'HTML',
         color: 'var(--red)',
         backgroundColor: 'var(--bg-red)',
       },
-
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -155,15 +152,15 @@ const projectsData = [
     image: website,
     description: (
       <p>
-        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+        <b>SQLITE</b> database for a <b>coaching</b> application for personal trainers and clients
       </p>
     ),
     link: 'https://github.com/joshuapramirez/CoachingAppDatabase',
     tags: [
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
       },
     ]
   },
@@ -173,7 +170,7 @@ const projectsData = [
     image: website,
     description: (
       <p>
-        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+        Simple web application that replicates the <b>Google Search</b> and <b>Google Images</b> pages.
       </p>
     ),
     link: 'https://github.com/joshuapramirez/GoogleClone',
@@ -185,8 +182,8 @@ const projectsData = [
       },
       {
         text: 'CSS',
-	      color: 'var(--dark-teal)',
-  	    backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -196,7 +193,7 @@ const projectsData = [
     image: website,
     description: (
       <p>
-        Website made from scratch in <b>functional React</b>. Features a <b>homepage 3D animation</b>.
+        Users can <b>search</b> for existing wiki pages, <b>create</b> new pages, and <b>edit</b> existing ones.
       </p>
     ),
     link: 'https://github.com/joshuapramirez/WikipediaClone',
@@ -213,19 +210,18 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
       },
       {
         text: 'HTML',
         color: 'var(--red)',
         backgroundColor: 'var(--bg-red)',
       },
-
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -235,7 +231,7 @@ const projectsData = [
     image: pathtracer,
     description: (
       <p>
-        Path tracing in C++ for Physically Based Rendering. <b>CPU parallelized</b> and optimized with <b>Bounding Volume Hierarchy</b>.
+        Look up stock prices, <b>simulate buying and selling</b> of stocks, and track their <b>virtual portfolio</b>
       </p>
     ),
     link: 'https://github.com/joshuapramirez/StockTrading',
@@ -252,8 +248,8 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
       },
       {
         text: 'HTML',
@@ -262,8 +258,8 @@ const projectsData = [
       },
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -273,7 +269,7 @@ const projectsData = [
     image: stoch,
     description: (
 
-      <p><b>Stochastic methods</b> for real-time transparency in the <b>browser</b>.</p>
+      <p>Platform where users can <b>create, send, and receive</b> emails</p>
     ),
     link: 'https://github.com/joshuapramirez/Email',
     tags: [
@@ -294,9 +290,9 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
-      },      
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
+      },
       {
         text: 'HTML',
         color: 'var(--red)',
@@ -304,8 +300,8 @@ const projectsData = [
       },
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -315,7 +311,7 @@ const projectsData = [
     image: tiger,
     description: (
       <div>
-        <p>Semester long school project to build the <b>frontend of a Tiger compiler</b></p>
+        <p>Platform for <b>browsing</b> products, <b>bidding</b> on items, <b>purchasing</b> products, and <b>selling</b> their own items.</p>
       </div>
     ),
     link: 'https://github.com/joshuapramirez/ECommerce',
@@ -332,9 +328,9 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
-      },      
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
+      },
       {
         text: 'HTML',
         color: 'var(--red)',
@@ -342,8 +338,8 @@ const projectsData = [
       },
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -353,8 +349,7 @@ const projectsData = [
     image: tau,
     description: (
       <div>
-        <p><b>Kaggle competition</b> : recognize floor surfaces using data collected from Inertial Sensors.</p>
-        <p><b>Third team</b> out of 105.</p>
+        <p><b>Share</b> posts, <b>engage</b> with content, and <b>connect</b> with others.</p>
       </div>
     ),
     link: 'https://github.com/joshuapramirez/TwitterClone',
@@ -376,9 +371,9 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
-      },      
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
+      },
       {
         text: 'HTML',
         color: 'var(--red)',
@@ -386,8 +381,8 @@ const projectsData = [
       },
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
@@ -395,10 +390,10 @@ const projectsData = [
     id: 8,
     title: 'Inventory Management System',
     image: wce,
-    link: 'https://github.com/joshuapramirez/InventorySystem',
     description: (
-      <p>Implementation of the <b><a href='https://www.sciencedirect.com/science/article/pii/S0167639318304205'>automatic word count estimation algorithm</a></b> (Räsänen, Okko, et al., 2019).</p>
+      <p><b>Create, update, manage, and analyze</b> products</p>
     ),
+    link: 'https://github.com/joshuapramirez/InventorySystem',
     tags: [
       {
         text: 'Django',
@@ -417,9 +412,9 @@ const projectsData = [
       },
       {
         text: 'SQL',
-        color: 'var(--maroon)',
-        backgroundColor: 'var(--bg-maroon)',
-      },      
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
+      },
       {
         text: 'HTML',
         color: 'var(--red)',
@@ -427,8 +422,8 @@ const projectsData = [
       },
       {
         text: 'CSS',
-        color: 'var(--dark-teal)',
-        backgroundColor: 'var(--bg-dark-teal)',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
       },
     ]
   },
