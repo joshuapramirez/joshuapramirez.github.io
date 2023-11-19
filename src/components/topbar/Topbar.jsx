@@ -72,7 +72,7 @@ export default function Topbar({ toShow, activePage, setActivePage, isPhone }) {
               isPhone={isPhone}
               icon={<i class={`fas fa-code-branch ${isPhone && activePage[2] ? 'blue' : ''}`}></i>}
             />
-            {/* <Link
+            <Link
               idx={3} 
               href='#contact'
               text='Contact'
@@ -80,7 +80,7 @@ export default function Topbar({ toShow, activePage, setActivePage, isPhone }) {
               setActivePage={setActivePage}
               isPhone={isPhone}
               icon={<i class={`fas fa-paper-plane ${isPhone && activePage[3] ? 'blue' : ''}`}></i>}
-            /> */}
+            />
           </div>
         </div>
       </div>

@@ -122,19 +122,30 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/FitnessPage',
     tags: [
       {
-        text: 'React',
+        text: 'Flask',
         color: 'var(--purple)',
         backgroundColor: 'var(--bg-purple)',
       },
       {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
       },
       {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },
+      {
+        text: 'HTML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -150,19 +161,9 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/CoachingAppDatabase',
     tags: [
       {
-        text: 'React',
-        color: 'var(--purple)',
-        backgroundColor: 'var(--bg-purple)',
-      },
-      {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
-      },
-      {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
       },
     ]
   },
@@ -178,19 +179,14 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/GoogleClone',
     tags: [
       {
-        text: 'React',
-        color: 'var(--purple)',
-        backgroundColor: 'var(--bg-purple)',
+        text: 'HTML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
       },
       {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
-      },
-      {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
+        text: 'CSS',
+	      color: 'var(--dark-teal)',
+  	    backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -206,19 +202,30 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/WikipediaClone',
     tags: [
       {
-        text: 'React',
-        color: 'var(--purple)',
-        backgroundColor: 'var(--bg-purple)',
+        text: 'Django',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
       },
       {
-        text: 'ThreeJS',
-        color: 'var(--cyan)',
-        backgroundColor: 'var(--bg-cyan)',
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
       },
       {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },
+      {
+        text: 'HTML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -234,9 +241,29 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/StockTrading',
     tags: [
       {
-        text: 'C++',
-        color: 'var(--blue)',
-        backgroundColor: 'var(--bg-blue)',
+        text: 'Flask',
+        color: 'var(--purple)',
+        backgroundColor: 'var(--bg-purple)',
+      },
+      {
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
+      },
+      {
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },
+      {
+        text: 'HTML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -251,19 +278,34 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/Email',
     tags: [
       {
-        text: 'JS',
-        color: 'var(--orange)',
-        backgroundColor: 'var(--bg-orange)',
+        text: 'Django',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
       },
       {
-        text: 'ThreeJS',
+        text: 'JavaScript',
         color: 'var(--cyan)',
         backgroundColor: 'var(--bg-cyan)',
       },
       {
-        text: 'GLSL',
-        color: 'var(--pink)',
-        backgroundColor: 'var(--bg-pink)',
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
+      },
+      {
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },      
+      {
+        text: 'HTML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -279,9 +321,29 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/ECommerce',
     tags: [
       {
-        text: 'C++',
+        text: 'Django',
         color: 'var(--blue)',
         backgroundColor: 'var(--bg-blue)',
+      },
+      {
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
+      },
+      {
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },      
+      {
+        text: 'HTML',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -298,14 +360,34 @@ const projectsData = [
     link: 'https://github.com/joshuapramirez/TwitterClone',
     tags: [
       {
+        text: 'Django',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
+      },
+      {
+        text: 'JavaScript',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
         text: 'Python',
         color: 'var(--green)',
         backgroundColor: 'var(--bg-green)',
       },
       {
-        text: 'ML',
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },      
+      {
+        text: 'HTML',
         color: 'var(--red)',
         backgroundColor: 'var(--bg-red)',
+      },
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
       },
     ]
   },
@@ -319,20 +401,37 @@ const projectsData = [
     ),
     tags: [
       {
+        text: 'Django',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
+      },
+      {
+        text: 'JavaScript',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
         text: 'Python',
         color: 'var(--green)',
         backgroundColor: 'var(--bg-green)',
       },
       {
-        text: 'ML',
+        text: 'SQL',
+        color: 'var(--maroon)',
+        backgroundColor: 'var(--bg-maroon)',
+      },      
+      {
+        text: 'HTML',
         color: 'var(--red)',
         backgroundColor: 'var(--bg-red)',
       },
+      {
+        text: 'CSS',
+        color: 'var(--dark-teal)',
+        backgroundColor: 'var(--bg-dark-teal)',
+      },
     ]
   },
-
-
-
 ]
 
 export { experienceData, projectsData }
