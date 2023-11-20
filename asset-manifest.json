@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.95ba06e0.chunk.css",
-    "main.js": "/static/js/main.2130e2f5.chunk.js",
-    "main.js.map": "/static/js/main.2130e2f5.chunk.js.map",
+    "main.js": "/static/js/main.6395a0e1.chunk.js",
+    "main.js.map": "/static/js/main.6395a0e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/js/2.1962d4a9.chunk.js": "/static/js/2.1962d4a9.chunk.js",
@@ -12,21 +12,21 @@
     "static/js/2.1962d4a9.chunk.js.LICENSE.txt": "/static/js/2.1962d4a9.chunk.js.LICENSE.txt",
     "static/media/coaching.5597a768.png": "/static/media/coaching.5597a768.png",
     "static/media/commerce.ef1e1afb.png": "/static/media/commerce.ef1e1afb.png",
-    "static/media/ens.c48c41c3.png": "/static/media/ens.c48c41c3.png",
-    "static/media/epita.f88f36c3.png": "/static/media/epita.f88f36c3.png",
     "static/media/fitnessPage.ffcd6c1c.png": "/static/media/fitnessPage.ffcd6c1c.png",
+    "static/media/fiu.a29f8b2a.jpg": "/static/media/fiu.a29f8b2a.jpg",
     "static/media/inventoryManagement.0f0578ff.png": "/static/media/inventoryManagement.0f0578ff.png",
     "static/media/mail.fe11ae34.png": "/static/media/mail.fe11ae34.png",
     "static/media/network.eddd56ad.png": "/static/media/network.eddd56ad.png",
     "static/media/search.e3083986.png": "/static/media/search.e3083986.png",
-    "static/media/siemens.4aa8efa4.png": "/static/media/siemens.4aa8efa4.png",
     "static/media/stockTrading.9bbde989.png": "/static/media/stockTrading.9bbde989.png",
-    "static/media/wiki.7430446d.png": "/static/media/wiki.7430446d.png"
+    "static/media/udemy.639d0661.png": "/static/media/udemy.639d0661.png",
+    "static/media/wiki.7430446d.png": "/static/media/wiki.7430446d.png",
+    "static/media/ymca.5fad9f67.jpg": "/static/media/ymca.5fad9f67.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebc510a.js",
     "static/js/2.1962d4a9.chunk.js",
     "static/css/main.95ba06e0.chunk.css",
-    "static/js/main.2130e2f5.chunk.js"
+    "static/js/main.6395a0e1.chunk.js"
   ]
 }
