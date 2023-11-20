@@ -38,7 +38,7 @@ export default function Topbar({ toShow, activePage, setActivePage, isPhone }) {
           
           <div className='left'>
             <a href='#intro' onClick={() => setActivePage([true, false, false, false])}>
-              <h1 color='secondary'><b className='blue'>MC</b></h1>
+              <h1 color='secondary'><b className='blue'>JR</b></h1>
             </a>
           </div>
 
