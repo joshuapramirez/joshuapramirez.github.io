@@ -1,8 +1,8 @@
-import epita from './assets/epita.png'
-import ens from './assets/ens.png'
-import factonics from './assets/factonics.png'
-import siemens from './assets/siemens.png'
-
+import fiu from './assets/fiu.jpg'
+import ymca from './assets/ymca.jpg'
+import oneFitness from './assets/oneFitness.png'
+import HarvardX from './assets/HarvardX.png'
+import udemy from './assets/udemy.png'
 import coaching from './assets/coaching.png'
 import commerce from './assets/commerce.png'
 import fitnessPage from './assets/fitnessPage.png'
@@ -17,7 +17,7 @@ import wiki from './assets/wiki.png'
 const experienceData = [
   {
     company: 'Florida International University',
-    logo: epita,
+    logo: fiu,
     title: 'Bachelor in Business Management',
     startDate: new Date(2016, 8),
     endDate: new Date(2018, 4),
@@ -29,7 +29,7 @@ const experienceData = [
   },
   {
     company: 'YMCA',
-    logo: epita,
+    logo: ymca,
     title: 'Personal Trainer',
     startDate: new Date(2017, 5),
     endDate: new Date(2023, 12, 15),
@@ -41,7 +41,7 @@ const experienceData = [
   },
   {
     company: 'One Fitness Weston',
-    logo: epita,
+    logo: oneFitness,
     title: 'Personal Trainer',
     startDate: new Date(2022, 2),
     endDate: new Date(2023, 7),
@@ -53,7 +53,7 @@ const experienceData = [
   },
   {
     company: 'HarvardX',
-    logo: factonics,
+    logo: HarvardX,
     title: 'CS50x Intro to Computer Science',
     startDate: new Date(2022, 8),
     endDate: new Date(2023, 4),
@@ -66,7 +66,7 @@ const experienceData = [
   },
   {
     company: 'HarvardX',
-    logo: siemens,
+    logo: HarvardX,
     title: 'CS50W Web Programming with Python and JavaScript',
     startDate: new Date(2023, 5),
     endDate: new Date(2023, 8),
@@ -79,7 +79,7 @@ const experienceData = [
   },
   {
     company: 'HarvardX',
-    logo: siemens,
+    logo: HarvardX,
     title: 'CS50SQL Intro to Databases with SQL',
     startDate: new Date(2023, 9, 15),
     endDate: new Date(2023, 10, 15),
@@ -92,7 +92,7 @@ const experienceData = [
   },
   {
     company: 'Udemy',
-    logo: ens,
+    logo: udemy,
     title: 'Microservices with Node JS and React',
     startDate: new Date(2023, 10, 15),
     endDate: new Date(2023, 12, 15),

@@ -45,7 +45,7 @@ export default function Contact({ isPhone }) {
       
       // CHANGE ME
       const serviceId = 'service_91h27jb';
-      const templateId = 'TEMPLATE_ID';
+      const templateId = 'template_nzfa03e';
       const userId = 'vP89ZZi9WfiLyjIwW';
       const templateParams = {
           name,
