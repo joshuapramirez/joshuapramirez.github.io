@@ -2,13 +2,16 @@ import epita from './assets/epita.png'
 import ens from './assets/ens.png'
 import factonics from './assets/factonics.png'
 import siemens from './assets/siemens.png'
-import concordia from './assets/concordia.png'
-import pathtracer from './assets/pathtracer.png'
-import website from './assets/website.png'
-import wce from './assets/wce.png'
-import stoch from './assets/stoch.png'
-import tau from './assets/tau.png'
-import tiger from './assets/tiger.jpg'
+
+import coaching from './assets/coaching.png'
+import commerce from './assets/commerce.png'
+import fitnessPage from './assets/fitnessPage.png'
+import inventoryManagement from './assets/inventoryManagement.png'
+import mail from './assets/mail.png'
+import network from './assets/network.png'
+import search from './assets/search.png'
+import stockTrading from './assets/stockTrading.png'
+import wiki from './assets/wiki.png'
 
 
 const experienceData = [
@@ -20,7 +23,6 @@ const experienceData = [
     endDate: new Date(2018, 4),
     description: [
       <p>Courses in management, accounting, finance, entrepreneurship</p>,
-      <p><b><u><a href=''>Transcript</a></u></b></p>,
     ],
     color: 'green',
     position: 'bottom'
@@ -111,7 +113,7 @@ const projectsData = [
   {
     id: 0,
     title: 'Fitness Business Page',
-    image: website,
+    image: fitnessPage,
     description: (
       <p>
         Personal page to help you <b>promote</b> your business
@@ -149,7 +151,7 @@ const projectsData = [
   {
     id: 1,
     title: 'Coaching App Database',
-    image: website,
+    image: coaching,
     description: (
       <p>
         <b>SQLITE</b> database for a <b>coaching</b> application for personal trainers and clients
@@ -167,7 +169,7 @@ const projectsData = [
   {
     id: 2,
     title: 'Google Clone',
-    image: website,
+    image: search,
     description: (
       <p>
         Simple web application that replicates the <b>Google Search</b> and <b>Google Images</b> pages.
@@ -190,7 +192,7 @@ const projectsData = [
   {
     id: 3,
     title: 'Wikipedia Clone',
-    image: website,
+    image: wiki,
     description: (
       <p>
         Users can <b>search</b> for existing wiki pages, <b>create</b> new pages, and <b>edit</b> existing ones.
@@ -228,7 +230,7 @@ const projectsData = [
   {
     id: 4,
     title: 'Stock Trading',
-    image: pathtracer,
+    image: stockTrading,
     description: (
       <p>
         Look up stock prices, <b>simulate buying and selling</b> of stocks, and track their <b>virtual portfolio</b>
@@ -266,7 +268,7 @@ const projectsData = [
   {
     id: 5,
     title: 'Email',
-    image: stoch,
+    image: mail,
     description: (
 
       <p>Platform where users can <b>create, send, and receive</b> emails</p>
@@ -308,7 +310,7 @@ const projectsData = [
   {
     id: 6,
     title: 'E-commerce',
-    image: tiger,
+    image: commerce,
     description: (
       <div>
         <p>Platform for <b>browsing</b> products, <b>bidding</b> on items, <b>purchasing</b> products, and <b>selling</b> their own items.</p>
@@ -346,7 +348,7 @@ const projectsData = [
   {
     id: 7,
     title: 'Twitter Clone',
-    image: tau,
+    image: network,
     description: (
       <div>
         <p><b>Share</b> posts, <b>engage</b> with content, and <b>connect</b> with others.</p>
@@ -389,7 +391,7 @@ const projectsData = [
   {
     id: 8,
     title: 'Inventory Management System',
-    image: wce,
+    image: inventoryManagement,
     description: (
       <p><b>Create, update, manage, and analyze</b> products</p>
     ),
