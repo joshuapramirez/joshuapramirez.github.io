@@ -116,7 +116,7 @@ const projectsData = [
     image: fitnessPage,
     description: (
       <p>
-        Personal page to help you <b>promote</b> your business
+        Personal page to help you <b>promote</b> your <b>business</b>
       </p>
     ),
     link: 'https://github.com/joshuapramirez/FitnessPage',
