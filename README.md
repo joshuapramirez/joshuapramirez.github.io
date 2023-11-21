@@ -18,7 +18,6 @@
 - Light and dark themes
 <div align="center"> <img alt="themes" src='src/assets/themes.png' width='70%'> <br></div>
 - Fully responsive
-<div align="center"><br> <img alt="resume" src='src/assets/resume.png' width='70%'> <br><br></div>
 - Made only with React and Sass, no library
 
 ## Getting started
