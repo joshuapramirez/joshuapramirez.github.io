@@ -2,7 +2,7 @@
   <img alt="Logo" src="src/assets/logo-round.png" width="20%" />
 </div>
 <h1 align="center">
-  <a href='https://medericcarriat.com/'>medericcarriat.com</a>
+  <a href='https://joshuapramirez.com/'>joshuapramirez.com</a>
 </h1>
 <p align="center">Simple yet fully featured portfolio website.</p>
 
@@ -18,8 +18,6 @@
 - Light and dark themes
 <div align="center"> <img alt="themes" src='src/assets/themes.png' width='70%'> <br></div>
 - Fully responsive
-<div align="center"><br> <img alt="responsiveness" src='src/assets/responsiveness.png' width='70%'> <br><br></div>
-- Themed resume web page (<a href=https://github.com/MedericCar/resume>repo</a>)
 <div align="center"><br> <img alt="resume" src='src/assets/resume.png' width='70%'> <br><br></div>
 - Made only with React and Sass, no library
 
@@ -34,8 +32,8 @@ In a terminal :
 ```bash
 
 # Clone the repository
-$ git clone https://github.com/MedericCar/portfolio.git
-$ cd portfolio
+$ git clone https://github.com/joshuapramirez/joshuapramirez.github.io.git
+$ cd joshuapramirez.github.io
 
 # Install the dependencies
 $ npm install
@@ -56,3 +54,6 @@ Should one want to modify the data and colors of the website :
 
 ## Acknowledgments
 Special thanks to [Lama Dev](https://www.youtube.com/channel/UCOxWrX5MIdXIeRNaXC3sqIg) for a great [tutorial](https://www.youtube.com/watch?v=7WwtzsSHdpI) which I used as a basis for this project.
+
+## Credits
+This project is based on the [Portfolio Page Template](https://github.com/MedericCar/portfolio) by [Mederic Car](https://github.com/MedericCar).
