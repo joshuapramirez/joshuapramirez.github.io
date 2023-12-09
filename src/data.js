@@ -91,14 +91,27 @@ const experienceData = [
     position: 'top'
   },
   {
+    company: 'DeepLearning.AI',
+    logo: udemy,
+    title: 'Generative AI with Large Language Models',
+    startDate: new Date(2023, 12, 1),
+    endDate: new Date(2023, 12, 30),
+    description: [
+      <p>Tags: <b>Machine Learning, Large Language Models, Generative AI, Python</b></p>,
+      <p><u><a href='https://www.coursera.org/account/accomplishments/verify/L2TACPR5NWPQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'>Certificate</a></u></p>,
+    ],
+    color: 'yellow',
+    position: 'top'
+  },
+  {
     company: 'Udemy',
     logo: udemy,
     title: 'Microservices with Node JS and React',
     startDate: new Date(2023, 10, 15),
     endDate: new Date(2023, 12, 15),
     description: [
-      <p>Tags: <b>React, Next.js, Node.js, Express, MongoDB, Redis, Docker, Kubernetes, Skaffold, JavaScript, TypeScript, Google Cloud Platform, </b></p>,
-      <p><u><a href=''>Certificate</a></u></p>,
+      <p>Tags: <b>React, Next.js, Node.js, Express, MongoDB, Redis, Docker, Kubernetes, Skaffold, JavaScript, TypeScript, Google Cloud Platform</b></p>,
+      <p><u><a href='https://www.udemy.com/certificate/UC-362b8ca0-bbeb-4246-89f2-75564f28c519/'>Certificate</a></u></p>,
     ],
     color: 'yellow',
     position: 'bottom'

@@ -14,8 +14,8 @@ export default function Experience({ darkTheme, smallViewport }) {
       <h1 id='title'>Hi, I'm <span className='blue'>Joshua</span></h1>
       <div id='description'>
         <p>
-          Self-taught Software Developer currently 
-          looking for an <b className='blue'>internship or junior developer position</b> starting <b className='blue'>as soon as possible!</b>
+          Self-taught Data Engineer + Machine Learning Engineer currently 
+          looking for an <b className='blue'>internship or junior position</b> starting <b className='blue'>as soon as possible!</b>
         </p>
         <p>
           This is what I've been up to the last 7 years.
