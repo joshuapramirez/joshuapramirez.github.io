@@ -32,9 +32,9 @@ const experienceData = [
     logo: ymca,
     title: 'Personal Trainer',
     startDate: new Date(2017, 5),
-    endDate: new Date(2023, 12, 15),
+    endDate: new Date(2024, 3, 1),
     description: [
-      <p> Provided one-on-one training, coached the Teen Lifting Club, and operated the summer Athletic </p>,
+      <p> Created a clientele data analytics dashboard web app to help employees assess clients’ progress  </p>,
     ],
     color: 'blue',
     position: 'center'
@@ -98,7 +98,7 @@ const experienceData = [
     endDate: new Date(2023, 12, 30),
     description: [
       <p>Tags: <b>Machine Learning, Large Language Models, Generative AI, Python</b></p>,
-      <p><u><a href='https://www.coursera.org/account/accomplishments/verify/L2TACPR5NWPQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'>Certificate</a></u></p>,
+      <p><b><u><a href='https://www.coursera.org/account/accomplishments/verify/L2TACPR5NWPQ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course'>Certificate</a></u></b></p>,
     ],
     color: 'yellow',
     position: 'top'
@@ -107,13 +107,26 @@ const experienceData = [
     company: 'Udemy',
     logo: udemy,
     title: 'Microservices with Node JS and React',
-    startDate: new Date(2023, 10, 15),
-    endDate: new Date(2023, 12, 15),
+    startDate: new Date(2023, 10, 1),
+    endDate: new Date(2023, 12, 1),
     description: [
       <p>Tags: <b>React, Next.js, Node.js, Express, MongoDB, Redis, Docker, Kubernetes, Skaffold, JavaScript, TypeScript, Google Cloud Platform</b></p>,
-      <p><u><a href='https://www.udemy.com/certificate/UC-362b8ca0-bbeb-4246-89f2-75564f28c519/'>Certificate</a></u></p>,
+      <p><b><u><a href='https://www.udemy.com/certificate/UC-362b8ca0-bbeb-4246-89f2-75564f28c519/'>Certificate</a></u></b></p>,
     ],
-    color: 'yellow',
+    color: 'orange',
+    position: 'bottom'
+  },
+  {
+    company: 'DeepLearning.AI',
+    logo: udemy,
+    title: 'Machine Learning Specialization',
+    startDate: new Date(2023, 12, 15),
+    endDate: new Date(2024, 1, 15),
+    description: [
+      <p>Tags: <b>Machine Learning, Pytho, PyTorch, Tensorflow, Scikit-learn, Pandas, NumPy, Matplotlib</b></p>,
+      <p><b><u><a href='https://www.coursera.org/account/accomplishments/specialization/U8AMHJGADWKJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n'>Certificate</a></u></b></p>,
+    ],
+    color: 'red',
     position: 'bottom'
   },
 ]
@@ -437,6 +450,47 @@ const projectsData = [
       },
       {
         text: 'CSS',
+        color: 'var(--pink)',
+        backgroundColor: 'var(--bg-pink)',
+      },
+    ]
+  },
+  {
+    id: 9,
+    title: 'GPT Language Translator',
+    image: inventoryManagement,
+    description: (
+      <p> Custom <b>neural machine translation</b> model based on the <b>Transformer</b> architecture, with features for <b>data processing, model training, evaluation, and real-time translation</b></p>
+    ),
+    link: 'https://github.com/joshuapramirez/GPT-Translator-Model',
+    tags: [
+      {
+        text: 'Python',
+        color: 'var(--green)',
+        backgroundColor: 'var(--bg-green)',
+      },
+      {
+        text: 'PyTorch',
+        color: 'var(--blue)',
+        backgroundColor: 'var(--bg-blue)',
+      },
+      {
+        text: 'Pandas',
+        color: 'var(--cyan)',
+        backgroundColor: 'var(--bg-cyan)',
+      },
+      {
+        text: 'NumPy',
+        color: 'var(--orange)',
+        backgroundColor: 'var(--bg-orange)',
+      },
+      {
+        text: 'Scikit-learn',
+        color: 'var(--red)',
+        backgroundColor: 'var(--bg-red)',
+      },
+      {
+        text: 'Matplotlib',
         color: 'var(--pink)',
         backgroundColor: 'var(--bg-pink)',
       },
